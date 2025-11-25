@@ -1,0 +1,14 @@
+[Unit]
+Description=The Messenger worker for Pollaris
+
+[Service]
+ExecStart=php__PHP_VERSION__ __INSTALL_DIR__/bin/console messenger:consume async --time-limit=3600
+
+User=__APP__
+Group=www-data
+
+Restart=always
+RestartSec=30
+
+[Install]
+WantedBy=default.target
