@@ -60,7 +60,7 @@ ynh_script_progression "Install $app"
 
 pushd $install_dir
 	php$php_version bin/console doctrine:migrations:migrate --no-interaction
-	#php$php_version  bin/console app:user:create
+	php$php_version  bin/console app:user:create username=$admin password=$password
 popd
 
 #=================================================
