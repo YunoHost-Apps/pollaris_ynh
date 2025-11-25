@@ -50,7 +50,7 @@ ram.runtime = "50M"
     url = "https://framagit.org/pollaris/pollaris/-/archive/1.1.2/pollaris-1.1.2.tar.gz"
     sha256 = "37dac26d5379aef0caa2a45fe47bc1a2c7ef5baeaf23d9de46d89a67560873db"
 
-    # autoupdate.strategy = "latest_github_tag"
+    autoupdate.strategy = "latest_gitlab_release"
 
     [resources.system_user]
     allow_email = true
