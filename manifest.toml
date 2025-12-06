@@ -15,7 +15,7 @@ maintainers = ["eric_G"]
 license = "GPL-3.0-only"
 website = "https://pollaris.org/"
 admindoc = "https://framagit.org/pollaris/pollaris/-/blob/main/docs/administrators/install.md"
-code = "https://framagit.org/pollaris/pollaris/-/tree/main"
+code = "https://framagit.org/pollaris/pollaris/"
 
 [integration]
 yunohost = ">= 12.1.17"
