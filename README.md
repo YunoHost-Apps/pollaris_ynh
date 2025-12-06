@@ -26,7 +26,7 @@ Polling tool to plan, organise and make decisions quickly
 
 [![Automatic tests level](https://apps.yunohost.org/badge/cilevel/pollaris)](https://ci-apps.yunohost.org/ci/apps/pollaris/)
 
-🛠️ Upstream Pollaris repository: <https://framagit.org/pollaris/pollaris/-/tree/main>
+🛠️ Upstream Pollaris repository: <https://framagit.org/pollaris/pollaris/>
 
 Pull request are welcome and should target the [`testing` branch](https://github.com/YunoHost-Apps/pollaris_ynh/tree/testing).
 
