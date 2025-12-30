@@ -7,7 +7,7 @@ name = "Pollaris"
 description.en = "Polling tool to plan, organise and make decisions quickly"
 description.fr = "Outil de sondage pour planifier, organiser et prendre rapidement des décisions"
 
-version = "1.1.2~ynh1"
+version = "1.1.2~ynh2"
 
 maintainers = ["eric_G"]
 
@@ -15,7 +15,7 @@ maintainers = ["eric_G"]
 license = "GPL-3.0-only"
 website = "https://pollaris.org/"
 admindoc = "https://framagit.org/pollaris/pollaris/-/blob/main/docs/administrators/install.md"
-code = "https://framagit.org/pollaris/pollaris/-/tree/main"
+code = "https://framagit.org/pollaris/pollaris/"
 
 [integration]
 yunohost = ">= 12.1.17"
@@ -37,6 +37,14 @@ ram.runtime = "50M"
     [install.init_main_permission]
     type = "group"
     default = "visitors"
+
+    [install.admin]
+    type = "user"
+
+    [install.password]
+    help.en = "Use the help field to add an information for the admin about this question."
+    help.fr = "Utilisez le champ aide pour ajouter une information à l'intention de l'administrateur à propos de cette question."
+    type = "password"
 
 [resources]
 
@@ -66,3 +74,4 @@ ram.runtime = "50M"
 
     [resources.composer]
     version = "2.8.1"
+    

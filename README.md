@@ -11,7 +11,7 @@ It shall NOT be edited by hand.
 Polling tool to plan, organise and make decisions quickly
 
 [![🌐 Official app website](https://img.shields.io/badge/Official_app_website-darkgreen?style=for-the-badge)](https://pollaris.org/)
-[![Version: 1.1.2~ynh1](https://img.shields.io/badge/Version-1.1.2~ynh1-rgb(18,138,11)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/pollaris/)
+[![Version: 1.1.2~ynh2](https://img.shields.io/badge/Version-1.1.2~ynh2-rgb(18,138,11)?style=for-the-badge)](https://ci-apps.yunohost.org/ci/apps/pollaris/)
 
 <div align="center">
 <a href="https://apps.yunohost.org/app/pollaris"><img height="100px" src="https://github.com/YunoHost/yunohost-artwork/raw/refs/heads/main/badges/neopossum-badges/badge_more_info_on_the_appstore.svg"/></a>
@@ -26,7 +26,7 @@ Polling tool to plan, organise and make decisions quickly
 
 [![Automatic tests level](https://apps.yunohost.org/badge/cilevel/pollaris)](https://ci-apps.yunohost.org/ci/apps/pollaris/)
 
-🛠️ Upstream Pollaris repository: <https://framagit.org/pollaris/pollaris/-/tree/main>
+🛠️ Upstream Pollaris repository: <https://framagit.org/pollaris/pollaris/>
 
 Pull request are welcome and should target the [`testing` branch](https://github.com/YunoHost-Apps/pollaris_ynh/tree/testing).
 
