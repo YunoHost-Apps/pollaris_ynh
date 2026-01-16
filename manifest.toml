@@ -7,7 +7,7 @@ name = "Pollaris"
 description.en = "Polling tool to plan, organise and make decisions quickly"
 description.fr = "Outil de sondage pour planifier, organiser et prendre rapidement des décisions"
 
-version = "1.1.2~ynh2"
+version = "1.1.2~ynh3"
 
 maintainers = ["eric_G"]
 
