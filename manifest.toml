@@ -67,7 +67,7 @@ ram.runtime = "50M"
 
     [resources.apt]
 
-    packages = "postgresql, php8.2-ctype, php8.2-iconv, php8.2-intl, php8.2-pdo, php8.2-pgsql, php8.2-zip, php8.2-xml"
+    packages = "postgresql, php8.4-ctype, php8.4-iconv, php8.4-intl, php8.4-pdo, php8.4-pgsql, php8.4-zip, php8.4-xml"
 
     [resources.database]
     type = "postgresql"
