@@ -18,7 +18,7 @@ admindoc = "https://framagit.org/pollaris/pollaris/-/blob/main/docs/administrato
 code = "https://framagit.org/pollaris/pollaris/"
 
 [integration]
-yunohost = ">= 12.1.17"
+yunohost = ">= 12.1.39"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
