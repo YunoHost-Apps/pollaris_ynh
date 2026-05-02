@@ -7,7 +7,7 @@ name = "Pollaris"
 description.en = "Polling tool to plan, organise and make decisions quickly"
 description.fr = "Outil de sondage pour planifier, organiser et prendre rapidement des décisions"
 
-version = "1.2.0~ynh1"
+version = "1.2.1~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -51,8 +51,8 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://framagit.org/pollaris/pollaris/-/archive/1.2.0/pollaris-1.2.0.tar.bz2"
-    sha256 = "600461ab17283796b203d7a602f7c8f734aa189d8ce9565fb2d0b7630df42e9d"
+    url = "https://framagit.org/pollaris/pollaris/-/archive/1.2.1/pollaris-1.2.1.tar.bz2"
+    sha256 = "49ca9a635ce4a135596838cdb7958075d7687a16a8e52e37f20258ab819edbc5"
 
     autoupdate.strategy = "latest_gitlab_release"
 
