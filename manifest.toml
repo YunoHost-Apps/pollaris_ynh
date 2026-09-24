@@ -18,7 +18,7 @@ admindoc = "https://framagit.org/pollaris/pollaris/-/blob/main/docs/administrato
 code = "https://framagit.org/pollaris/pollaris/"
 
 [integration]
-yunohost = ">= 12.1.39"
+yunohost = ">= 12.1.40"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
@@ -67,11 +67,11 @@ ram.runtime = "50M"
 
     [resources.apt]
 
-    packages = "postgresql, php8.4-ctype, php8.4-iconv, php8.4-intl, php8.4-pdo, php8.4-pgsql, php8.4-zip, php8.4-xml"
+    packages = "postgresql, php8.5-ctype, php8.5-iconv, php8.5-intl, php8.5-pdo, php8.5-pgsql, php8.5-zip, php8.5-xml"
 
     [resources.database]
     type = "postgresql"
 
     [resources.composer]
-    version = "2.9.5"
+    version = "2.10.3"
     
